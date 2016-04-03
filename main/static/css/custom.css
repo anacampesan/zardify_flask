@@ -1,0 +1,83 @@
+
+@font-face{
+    font-family: logo;
+    src: url('../fonts/rec.ttf');
+}
+
+#banner_container{
+    background: url("../img/banner_background.jpg") fixed;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#song_week{
+    padding: 30px;
+}
+
+#nav{
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 2px #000;
+    
+}
+
+#nav input{
+    background-color: #B3B3B3;
+    border-color: black;
+    color: whitesmoke;
+}
+
+#nav a{
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#nav a:hover{
+
+    background-color: #636363;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#banner{
+    margin-top: 60px;
+    color: whitesmoke;
+    
+
+}
+
+#banner_dropdown ul{
+    background-color: black;
+    
+    border-bottom: solid 2px #000;
+    border-left: solid 2px #000;
+}
+
+.logo{
+    font-family: logo;
+    font-size: 100px;
+    top: 30px;
+}
+
+.test{
+    height: 1000px;
+}
+
+#homeContent{
+    margin-top: 25px;
+}
+
+
+.navbar-collapse{
+    overflow: inherit !important;
+}
+
+.justifiedTxt{
+    text-align: justify;
+}
+
+#about{
+    max-height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}

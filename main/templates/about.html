@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="row">
+
+    <div class="col-md-10 col-md-offset-1">
+        <h3>About</h3>
+        <hr>
+    </div>
+</div>
+
+
+
+<div class="row">
+
+    <div class="col-md-7 col-md-offset-1">
+        
+        <p class="justifiedTxt">
+            <img id="about" class="img-thumbnail" src="{{url_for('static', filename='img/ana.png')}}">
+            I'm Ana, also known as anazard by close friends, a music and technology enthusiast from Brazil. I've spent 18 months from 2014 to 2015 in Toronto, Canada.
+            <br><br>
+            Studying programming and being interested in technology since I was 5 years old got me into Systems Analysis and Development, which I'll be graduating from very soon.
+            <br><br>
+            At the same time, I spent many hours of my childhood playing guitar and practicing with some friends in garage bands. Within the years, my musical taste drastically changed from hard rock to indie, synth-based and experimental. As it got sort of hard to find people willing to play these things, I dug into home recording (the results you can check on my <a href="http://soundcloud.com/anazard">soundcloud</a>).
+            <br><br>
+            Something I've ever wanted to do is building my own website. I did some experiences in the old Front Page times over 10 years ago. I had also built paralel stuff on subjects I used to like. However, my first dynamic webpage was developed in 2012, that is when I started learning server-side programming for an assignment at university. This website is basically the successful attempt of creating something fun for both me and the readers.
+            <br><br>
+            Things I do: back-end web development in Python (Flask), PHP and AJAX; research on Human-Computer Interaction, Software Engineer and Virtual Reality.
+        </p>
+    
+    </div>
+
+</div>
+
+{% endblock %}

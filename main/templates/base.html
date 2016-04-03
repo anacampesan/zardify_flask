@@ -1,0 +1,31 @@
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>{{title}} &raquo zardify</title>
+
+        <!-- Static files -->
+        {% include "static.html" %}
+
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+
+            <!-- Banner -->
+            {% include "banner.html" %}
+
+            <!-- Content -->
+            {% block content %}
+            {% endblock %}
+
+            <!-- Footer -->
+
+        </div>
+
+    </body>
+
+</html>
